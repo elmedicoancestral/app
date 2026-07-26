@@ -45,3 +45,15 @@ Abrí la URL publicada → menú del navegador → **Instalar aplicación** o **
 El contenido fue estructurado a partir de los archivos entregados por la autora. Durante la extracción se corrigieron únicamente guiones numéricos dañados por el PDF (por ejemplo, `15320` → `15–20`). Antes de una publicación comercial, una profesional responsable debe revisar de forma sistemática dosis, nombres botánicos, usos, contraindicaciones, interacciones, edades, conservación y coherencia entre documentos.
 
 La aplicación incluye avisos y un semáforo de seguridad, pero no diagnostica ni reemplaza atención profesional.
+
+## Actualización v2.1
+Esta versión incluye todos los datos de recetas, plantas y biblioteca dentro de `app.js`, para evitar que una carpeta `data/` omitida al subir archivos deje la aplicación vacía. También coloca el logo y los íconos principales en la raíz y actualiza la caché del service worker.
+
+Después de reemplazar los archivos en GitHub, abrí la app en una ventana de incógnito o borrá los datos del sitio para descartar la caché de la versión anterior.
+
+
+## Versión 3 — biblioteca botánica ilustrada
+
+Esta versión incorpora las correcciones funcionales de la v2 y agrega una fotografía individual a cada una de las 30 fichas de plantas. Las imágenes se encuentran en `assets/plants/` y se muestran en las tarjetas de la biblioteca y en la ficha ampliada de cada planta.
+
+Para actualizar GitHub Pages, reemplazá todos los archivos anteriores por el contenido completo de esta carpeta. Después recargá sin caché o abrí la app en una ventana de incógnito, porque el service worker anterior puede conservar archivos viejos.

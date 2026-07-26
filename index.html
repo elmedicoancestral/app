@@ -9,8 +9,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="apple-mobile-web-app-title" content="Médico Ancestral">
   <link rel="manifest" href="./manifest.webmanifest">
-  <link rel="apple-touch-icon" href="./icons/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="./icons/favicon-32.png">
+  <link rel="apple-touch-icon" href="./apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32.png">
   <link rel="stylesheet" href="./styles.css">
   <title>El Médico Ancestral</title>
 </head>
@@ -18,7 +18,7 @@
   <a class="skip-link" href="#app-main">Saltar al contenido</a>
   <div id="onboarding" class="onboarding" hidden aria-modal="true" role="dialog" aria-labelledby="onboarding-title">
     <div class="onboarding-card">
-      <img src="./assets/logo-el-medico-ancestral.jpg" alt="El Médico Ancestral" class="onboarding-logo">
+      <img src="./logo-el-medico-ancestral.png" alt="El Médico Ancestral" class="onboarding-logo">
       <div class="onboarding-step" data-onboarding-step="1">
         <p class="eyebrow">Tu botiquín natural con criterio</p>
         <h1 id="onboarding-title">Bienvenida a El Médico Ancestral</h1>
@@ -42,7 +42,7 @@
   <div class="app-shell">
     <header class="app-header">
       <button class="brand-button" data-route="home" aria-label="Ir al inicio">
-        <img src="./icons/icon-192.png" alt="" width="42" height="42">
+        <img src="./logo-el-medico-ancestral.png" alt="" width="46" height="46" onerror="this.src='./icon-192.png'">
         <span><strong>El Médico Ancestral</strong><small>Botiquín natural con criterio</small></span>
       </button>
       <button class="icon-button" id="settings-button" aria-label="Abrir configuración" title="Configuración">⚙</button>
@@ -61,9 +61,6 @@
   <div id="modal-root"></div>
   <div id="toast" class="toast" role="status" aria-live="polite"></div>
 
-  <script src="./data/recipes-data.js"></script>
-  <script src="./data/ingredients-data.js"></script>
-  <script src="./data/library-data.js"></script>
   <script src="./app.js"></script>
 </body>
 </html>

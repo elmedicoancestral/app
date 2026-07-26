@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1,
+    "plant": "Manzanilla",
+    "file": "assets/plants/manzanilla.webp"
+  },
+  {
+    "id": 2,
+    "plant": "Menta / Hierbabuena",
+    "file": "assets/plants/menta-hierbabuena.webp"
+  },
+  {
+    "id": 3,
+    "plant": "Tilo",
+    "file": "assets/plants/tilo.webp"
+  },
+  {
+    "id": 4,
+    "plant": "Lavanda",
+    "file": "assets/plants/lavanda.webp"
+  },
+  {
+    "id": 5,
+    "plant": "Romero",
+    "file": "assets/plants/romero.webp"
+  },
+  {
+    "id": 6,
+    "plant": "Salvia",
+    "file": "assets/plants/salvia.webp"
+  },
+  {
+    "id": 7,
+    "plant": "Tomillo",
+    "file": "assets/plants/tomillo.webp"
+  },
+  {
+    "id": 8,
+    "plant": "Orégano",
+    "file": "assets/plants/oregano.webp"
+  },
+  {
+    "id": 9,
+    "plant": "Eucalipto",
+    "file": "assets/plants/eucalipto.webp"
+  },
+  {
+    "id": 10,
+    "plant": "Jengibre fresco",
+    "file": "assets/plants/jengibre.webp"
+  },
+  {
+    "id": 11,
+    "plant": "Cúrcuma",
+    "file": "assets/plants/curcuma.webp"
+  },
+  {
+    "id": 12,
+    "plant": "Caléndula",
+    "file": "assets/plants/calendula.webp"
+  },
+  {
+    "id": 13,
+    "plant": "Aloe vera (sábila)",
+    "file": "assets/plants/aloe-vera.webp"
+  },
+  {
+    "id": 14,
+    "plant": "Boldo",
+    "file": "assets/plants/boldo.webp"
+  },
+  {
+    "id": 15,
+    "plant": "Diente de león",
+    "file": "assets/plants/diente-de-leon.webp"
+  },
+  {
+    "id": 16,
+    "plant": "Ortiga",
+    "file": "assets/plants/ortiga.webp"
+  },
+  {
+    "id": 17,
+    "plant": "Hinojo",
+    "file": "assets/plants/hinojo.webp"
+  },
+  {
+    "id": 18,
+    "plant": "Anís estrellado",
+    "file": "assets/plants/anis-estrellado.webp"
+  },
+  {
+    "id": 19,
+    "plant": "Canela",
+    "file": "assets/plants/canela.webp"
+  },
+  {
+    "id": 20,
+    "plant": "Laurel",
+    "file": "assets/plants/laurel.webp"
+  },
+  {
+    "id": 21,
+    "plant": "Limón (cáscara y jugo)",
+    "file": "assets/plants/limon.webp"
+  },
+  {
+    "id": 22,
+    "plant": "Perejil",
+    "file": "assets/plants/perejil.webp"
+  },
+  {
+    "id": 23,
+    "plant": "Ajo",
+    "file": "assets/plants/ajo.webp"
+  },
+  {
+    "id": 24,
+    "plant": "Cebolla",
+    "file": "assets/plants/cebolla.webp"
+  },
+  {
+    "id": 25,
+    "plant": "Malva",
+    "file": "assets/plants/malva.webp"
+  },
+  {
+    "id": 26,
+    "plant": "Cola de caballo",
+    "file": "assets/plants/cola-de-caballo.webp"
+  },
+  {
+    "id": 27,
+    "plant": "Pasiflora (mburucuyá)",
+    "file": "assets/plants/pasiflora.webp"
+  },
+  {
+    "id": 28,
+    "plant": "Valeriana",
+    "file": "assets/plants/valeriana.webp"
+  },
+  {
+    "id": 29,
+    "plant": "Rosa mosqueta",
+    "file": "assets/plants/rosa-mosqueta.webp"
+  },
+  {
+    "id": 30,
+    "plant": "Saúco",
+    "file": "assets/plants/sauco.webp"
+  }
+]
