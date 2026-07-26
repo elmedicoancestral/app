@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#202412">
+  <meta name="description" content="Botiquín natural interactivo con recetas, plantas, preparaciones y límites de seguridad.">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Médico Ancestral">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="apple-touch-icon" href="./icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./icons/favicon-32.png">
+  <link rel="stylesheet" href="./styles.css">
+  <title>El Médico Ancestral</title>
+</head>
+<body>
+  <a class="skip-link" href="#app-main">Saltar al contenido</a>
+  <div id="onboarding" class="onboarding" hidden aria-modal="true" role="dialog" aria-labelledby="onboarding-title">
+    <div class="onboarding-card">
+      <img src="./assets/logo-el-medico-ancestral.jpg" alt="El Médico Ancestral" class="onboarding-logo">
+      <div class="onboarding-step" data-onboarding-step="1">
+        <p class="eyebrow">Tu botiquín natural con criterio</p>
+        <h1 id="onboarding-title">Bienvenida a El Médico Ancestral</h1>
+        <p>Buscá un malestar, revisá los límites de seguridad y seguí preparaciones explicadas paso a paso.</p>
+        <button class="btn btn-primary btn-block" data-onboarding-next>Continuar</button>
+      </div>
+      <div class="onboarding-step" data-onboarding-step="2" hidden>
+        <p class="eyebrow">Antes de comenzar</p>
+        <h2>Uso educativo y responsable</h2>
+        <ul class="check-list">
+          <li>No brinda diagnósticos ni reemplaza una consulta.</li>
+          <li>No está indicada ante síntomas graves o nuevos.</li>
+          <li>Embarazo, lactancia, infancia o medicación requieren consulta previa.</li>
+        </ul>
+        <label class="consent-row"><input id="safety-consent" type="checkbox"> <span>Comprendí cómo utilizar la aplicación.</span></label>
+        <button class="btn btn-primary btn-block" id="finish-onboarding" disabled>Ingresar a mi botica</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="app-shell">
+    <header class="app-header">
+      <button class="brand-button" data-route="home" aria-label="Ir al inicio">
+        <img src="./icons/icon-192.png" alt="" width="42" height="42">
+        <span><strong>El Médico Ancestral</strong><small>Botiquín natural con criterio</small></span>
+      </button>
+      <button class="icon-button" id="settings-button" aria-label="Abrir configuración" title="Configuración">⚙</button>
+    </header>
+
+    <main id="app-main" tabindex="-1"></main>
+
+    <nav class="bottom-nav" aria-label="Navegación principal">
+      <button data-route="home" class="nav-item active"><span aria-hidden="true">⌂</span><small>Inicio</small></button>
+      <button data-route="consult" class="nav-item"><span aria-hidden="true">⌕</span><small>Consultar</small></button>
+      <button data-route="pantry" class="nav-item"><span aria-hidden="true">⚗</span><small>Mi botica</small></button>
+      <button data-route="library" class="nav-item"><span aria-hidden="true">▤</span><small>Biblioteca</small></button>
+    </nav>
+  </div>
+
+  <div id="modal-root"></div>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <script src="./data/recipes-data.js"></script>
+  <script src="./data/ingredients-data.js"></script>
+  <script src="./data/library-data.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>
